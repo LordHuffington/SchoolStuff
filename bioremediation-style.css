@@ -1,0 +1,242 @@
+/*bioremediation-style.css*/
+
+
+/*	[COLOR]:
+
+	Background: #222;
+	Header and content background: #3A3A3A;
+	Inactive Tab Background: #333;
+
+	Title Font: #2a4;
+
+	[COMPATIBILITY]:
+
+	Normal		: property: value;
+	I. Explorer	: -ms-property: value;
+	Chrome		: -webkit-property: value;
+	Firefox		: -moz-property: value;
+
+*/
+
+/*	Predefined classes; makes things easier...	*/
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.mainGreen {
+	color: #3B3;
+}
+
+.sansSerif {
+	font-family: "trebuchet ms", "calibri", "arial", "verdana";
+}
+
+.serif {
+	font-family: "georgia", "times new roman";
+}
+
+.heading {
+	font-family: "trebuchet ms", "arial black";
+}
+
+.small-caps {
+	font-variant: small-caps;
+}
+
+.centerAlign {
+	text-align: center;
+}
+
+.imageDiv {
+	margin: 12px;
+	position: relative;
+	border-radius: 12px;
+	padding: 12px;
+}
+
+.image {
+	width: inherit;
+	border-radius: 12px;
+}
+
+.imageCaption {
+	font-size: 0.8em;
+}
+
+/*	End predefined classes.	*/
+
+/* Everything */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #222;
+}
+
+
+/* The Header and Title */
+
+header {
+	max-width: 1500px;
+	margin-top: -10px;
+	background-color: #3A3A3A;
+	padding: 6px;
+	display: block;
+	text-align: center;
+	border-radius: 0px 0px 12px 12px;
+	line-height: 3px;
+	overflow: hidden;
+	box-shadow: -4px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+header > h1 {
+	font-size: 52px;
+	font-weight: bold;
+}
+
+header > p {
+	font-size: 16px;
+}
+
+
+/* The Navigation Bar */
+
+div#navBar {
+	background-color: #2a2a2a;
+	position: fixed;
+	margin-top: 24px;
+	border-radius: 12px 0 0 12px;
+	height: auto;
+	width: 250px;
+	margin-left: -4px;
+	box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+	border-radius: 12px 0 0 12px;
+	width: 250px;
+	display: block;
+	padding: 12px;
+	text-align: right;
+}
+
+.tab:hover,
+.tab.active {
+	cursor: pointer;
+	background-color: #313131;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: -4px 2px 4px rgba(0, 0, 0, 0.5);
+	width: 255px;
+}
+
+.tab > span {
+	text-decoration-line: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.tab:active > span {
+	color: #dfd;
+}
+
+.tab.active > span {
+	color: #afa;
+}
+
+
+/* The Content Body */
+
+.contentBody.show {
+	z-index: -1;
+	display: block;
+}
+
+.contentBody {
+	max-width: 1000px;
+	float: left;
+	display: none;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 24px;
+	padding: 16px;
+	background-color: #313131;
+	border-radius: 0px 12px 12px 12px;
+	overflow: auto;
+	box-shadow: -4px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contentBody > h1 {
+	text-align: center;
+}
+
+.contentBody > p {
+	font-size: 16px;
+}
+
+.contentBody a {
+	font-style: italic;
+	text-decoration: none;
+	color: #FF2;
+}
+
+.contentBody a:hover {
+	color: #af8;
+}
+
+.contentBody a:active {
+	color: #cf8;
+}
+
+#phytoremediationCategories {
+	max-width: 500px;
+}
+
+/*	The Images	*/
+
+#microbeOilDropImageDiv {
+	width: 400px;
+}
+
+#DRadioduransImageDiv {
+	width: 350px;
+	margin-right: 48px;
+}
+
+#drChakrabartyImageDiv {
+	width: 300px;
+	margin-right: 48px;
+}
+
+#phytoremediationDiagramDiv {
+	width: 400px;
+}
+
+#whiteRotFungusImageDiv {
+	width: 450px;
+	margin-right: 48px;
+}
+
+
+/*	Table of Contents	*/
+
+.tableOfContents {
+	box-shadow: inset 0 0 6px 4px rgba(0, 0, 0, 0.5);
+	max-width: 300px;
+	padding: 12px;
+	border-radius: 12px;
+	background-color: #2a2a2a;
+}
+
+.tableOfContents > ul {
+	list-style: none;
+}
