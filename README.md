@@ -1,8 +1,3 @@
-# SchoolStuff
-Stuff from school
+# Bioremediation
 
-Not really of any purpose, to people who don't know me.
-This is really just a very effective way for me to collaborate w/
-others on projects, share files efficiently, etc.
-
-Who knows? Someday, I might publish something useful.
+High school biology presentation. _Could_'ve gone with a PowerPoint, but no. I had to be _extra_. Labeeb was right, in the end. No matter what Akhtar says, she only wants the simple stuff.
