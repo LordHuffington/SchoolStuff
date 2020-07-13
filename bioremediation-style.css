@@ -33,7 +33,7 @@
 }
 
 .sansSerif {
-	font-family: "trebuchet ms", "calibri", "arial", "verdana";
+	font-family: "Source Sans Pro", "calibri", "arial", "verdana";
 }
 
 .serif {
@@ -41,7 +41,7 @@
 }
 
 .heading {
-	font-family: "trebuchet ms", "arial black";
+	font-family: "Source Sans Pro", "arial black";
 }
 
 .small-caps {
@@ -78,13 +78,16 @@
 
 body {
 	background-color: #222;
+	max-width: 1200px;
+	margin: auto;
 }
 
 
 /* The Header and Title */
 
 header {
-	max-width: 1500px;
+	max-width: 1200px;
+	margin: auto;
 	margin-top: -10px;
 	background-color: #3A3A3A;
 	padding: 6px;
