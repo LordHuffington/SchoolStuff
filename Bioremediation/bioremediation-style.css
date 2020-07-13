@@ -78,13 +78,16 @@
 
 body {
 	background-color: #222;
+	max-width: 1200px;
+	margin: auto;
 }
 
 
 /* The Header and Title */
 
 header {
-	max-width: 1500px;
+	max-width: 1200px;
+	margin: auto;
 	margin-top: -10px;
 	background-color: #3A3A3A;
 	padding: 6px;
